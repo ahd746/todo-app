@@ -14,11 +14,6 @@ export const todoReducer = (state, action) => {
         todos: [action.payload, ...state.todos]
       }
 
-    //not finished
-    case 'EDIT_TODO':
-      return {
-        ...state
-      }
     case 'DELETE_TODO':
       return {
         ...state,

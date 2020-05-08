@@ -10,11 +10,7 @@ export default function Todo({ todo }) {
     <tr>
       <td>{todo.title}</td>
       <td>{date}</td>
-      <td>
-        <span className="delete" onClick={() => deleteTodo(todo._id)}>Delete</span>
-        <span> | </span>
-        <span className="edit" onClick={() => deleteTodo(todo._id)}> Edit</span>
-      </td>
+      <td className="delete" onClick={() => deleteTodo(todo._id)}>Delete</td>
     </tr >
   )
 }

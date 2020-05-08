@@ -26,5 +26,4 @@ function App() {
     </div>
   );
 }
-// text-success bg-dark pb-5
 export default App;
