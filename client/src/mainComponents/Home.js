@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <h1>Welcome to Todo Application</h1>
       <div className="d-flex justify-content-center p-5">
-        <img src={img} alt="img" />
+        <img src={img} className="img-fluid" alt=" img" />
       </div>
     </>
   )
